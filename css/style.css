@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.blue-color{
+    color: dodgerblue !important;
+}
+
+
+
+/********* Navbar Css Start  *******/
+.nav-link{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 18px;
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-btn a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 18px;
+    padding: 15px 40px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+/********* Navbar Css End  *******/
+
+
+/********* About Section Css  Start******/
+.about-sec{
+    padding: 0px 100px;
+}
+.about-sec h1{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 70px;
+    
+}
+.about-sec p{
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+}
+.about-sec img{
+    border-radius: 20px;
+}
+/********* About Section Css  End******/
+
+
+/***** Trading Section Css Start  ***/
+.trading-sec{
+    padding:  50px 100px ;
+}
+.trading-sec h2{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 45px;
+}
+.trading-sec p{
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+}
+/****** Trading Section Css End  ****/
+
+
+/****** What we do Section Css Start  ****/
+
+.tab_content {
+    padding: 40px 0px;
+  }
+  
+  .tab-content {
+    display: none;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: tab_fade 0.4s ease 1 forwards;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  @keyframes tab_fade {
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (max-width: 900px) {
+    nav a {
+      padding: 2rem;
+      display: block;
+    }
+  }
+.tabs-sec {
+    background: transparent;
+/* box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.18); */
+border-radius: 50px;
+padding: 20px 10px;
+    /* width: 100%; */
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  
+  .tabs-sec a {
+    /* margin-right: 1rem; */
+    list-style: none;
+    padding: 1rem;
+    background-color: aliceblue;
+    cursor: pointer;
+    /* border-bottom: solid 4px ghostwhite; */
+    color: #111111;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: capitalize;
+border-radius: 10px;
+
+/* color: #FFFFFF; */
+
+    /* transition: all ease 0.4s; */
+  }
+  
+  .tabs-sec a:hover {
+    color: #111111;
+  }
+  
+  .tabs-sec a.active {
+    color: #FFFFFF !important;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+/****** What we do Section Css End  ****/
+
+
+/****** CSR Section Css Start  ****/
+.csr-sec{
+    padding: 50px 100px;
+
+}
+.csr-sec h2{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 75px;
+}
+.csr-sec p{
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+}
+/****** Csr Section Css End  ****/
+/****** What we do Section Css Start  ****/
+.what-sec {
+    padding: 50px 100px;
+}
+.what-sec h2{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 75px;
+}
+.what-sec p{
+    color: #999999;
+    font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+}
+.tabs-crd{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+}
+.tabs-crd p{
+    text-align: left;
+    color: dodgerblue;
+}
+
+/****** What we do Section Css End  ****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab_content {
+    padding: 40px 0px;
+  }
+  
+  .tab-content {
+    display: none;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: tab_fade 0.4s ease 1 forwards;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  @keyframes tab_fade {
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (max-width: 900px) {
+    nav a {
+      padding: 2rem;
+      display: block;
+    }
+  }
+.tabs-sec2 {
+    background: transparent;
+/* box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.18); */
+border-radius: 50px;
+padding: 20px 10px;
+    /* width: 100%; */
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  
+  .tabs-sec2 a {
+    /* margin-right: 1rem; */
+    list-style: none;
+    /* padding: 10px; */
+   
+    cursor: pointer;
+    /* border-bottom: solid 4px ghostwhite; */
+    color: dodgerblue;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+/* line-height: 24px; */
+text-transform: capitalize;
+/* border-radius: 10px; */
+text-align: left;
+/* color: #FFFFFF; */
+
+    /* transition: all ease 0.4s; */
+  }
+  
+  .tabs-sec2 a:hover {
+    color: #111111;
+  }
+  
+  .tabs-sec a.active {
+    color: #FFFFFF !important;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .about-sec, .csr-sec , .what-sec, .trading-sec{
+        padding: 20px 20px;
+    }
+    .tabs-sec2 a{
+        padding: 10px;
+    }
+    .csr-sec h2{
+        font-size: 50px;
+    }
+}
